@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 0px;
+    background-image: url(img1/stars.jpg);
+}
+@font-face {
+    font-family: "Moj font";
+    src: url(LilitaOne-Regular.ttf)
+}
+h1 {
+    font-size: 50px;
+    color: #00b6ce;
+    text-shadow: 0 0 10px #00b6ce, 0 0 20px #007b9e;
+    margin-bottom: 20px;
+}
+main p {
+    font-size: 20px;
+    color: #cccccc;
+    text-shadow: 0 0 5px #ffffff33;
+    font-family: "Moj font";
+}
+header {
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+img {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+    display: block;
+    margin: 20px auto;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 30px;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #00b6ce;
+    text-shadow: 0 0 5px lightblue;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    color: white;
+    position: relative;
+    bottom: 0px;
+    font-family: "Moj font";
+}
+nav ul li:nth-child(even) a {
+    color: purple;
+}
+nav ul li a:active {
+    color: lime;
+}
+.button {
+    display: inline-block; 
+    margin: 20px auto;
+    padding: 10px 20px; 
+    background-color: rgb(75, 75, 243);
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    box-shadow: 0 5px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s; 
+    text-align: center; 
+}
+.button:hover {
+    background-color: #007b9e; 
+    box-shadow: 0 8px rgba(0, 0, 0, 0.4); 
+    transition-duration: 0.6s;
+}
